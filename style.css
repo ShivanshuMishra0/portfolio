@@ -11,8 +11,8 @@ html {
 
 
 body {
-    background: #351515;
-    color: white;
+    background: #000000;
+    color: #F57D1F;
 
 }
 
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ebf400;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -58,7 +58,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #ef5327;
+    background: #F72798;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -92,7 +92,7 @@ nav .fa-solid {
 /**********About section**********/
 #about {
     padding: 80px 0;
-    color: #ababab;
+    color: #F72798;
 }
 
 .row {
@@ -217,7 +217,7 @@ nav .fa-solid {
 }
 
 .services-list div:hover {
-    background: #ef5327;
+    background: #b514e4;
     transform: translateY(-10px);
 }
 
